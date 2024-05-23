@@ -13,6 +13,6 @@ const newstudent=mongoose.Schema({
         type:Number,
     }
 })
-
+//comment added for testing purpose
 const student=mongoose.model('student',newstudent);
 module.exports=student;
